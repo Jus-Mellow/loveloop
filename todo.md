@@ -58,3 +58,11 @@ Anonymous validation completed successfully: `pnpm check`, `pnpm test`, and `pnp
 - [x] Prepare the current LoveLoop project Git repository and verify no sensitive environment files are staged.
 - [x] Create a private GitHub repository named loveloop.
 - [x] Push the current LoveLoop code to GitHub and verify the remote repository URL.
+
+## Preview, documentation, and CI
+
+- [x] Preview the current LoveLoop web app and record any visible limitations.
+- [x] Replace the starter README with comprehensive setup, architecture, feature, environment, and deployment documentation.
+- [x] Add GitHub Actions continuous integration for install, typecheck, tests, and production build.
+- [x] Validate the workflow files and local CI commands.
+- [x] Commit and push the README and CI updates to the loveloop GitHub repository.
