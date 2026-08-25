@@ -52,3 +52,9 @@
 ## Validation record
 
 Anonymous validation completed successfully: `pnpm check`, `pnpm test`, and `pnpm build` all pass, and the dev server starts cleanly. The browser reaches the intended Manus OAuth entry screen without client runtime failures. Authenticated browser exercises remain intentionally pending because the user chose not to sign in during this session. Realtime transport is currently implemented with five-second tRPC refresh rather than a socket channel, and the call room provides local camera/microphone preview plus controls while peer signaling remains a production follow-up.
+
+## GitHub export
+
+- [ ] Prepare the current LoveLoop project Git repository and verify no sensitive environment files are staged.
+- [ ] Create a private GitHub repository named loveloop.
+- [ ] Push the current LoveLoop code to GitHub and verify the remote repository URL.
