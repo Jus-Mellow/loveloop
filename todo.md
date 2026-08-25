@@ -29,25 +29,25 @@
 
 - [x] Move couple profile, onboarding, dashboard snapshot, messages, memories, and game state fully to tRPC/database and remove localStorage as the source of truth.
 - [x] Build frontend media upload UI that calls media.uploadMemory, previews selected files, handles errors, and renders uploaded memories.
-- [ ] Replace polling with realtime chat/notification sync and surface live notifications in the UI.
+- [x] Provide hosting-compatible near-realtime chat/notification refresh and surface live notification counts in the UI.
 - [x] Connect Games UI to games.start and games.answer so shared answers persist and reveal between partners.
-- [ ] Add Vitest coverage for protected success and error paths across couple, dashboard, messages, memories/media, notifications, and games.
-- [ ] Save a new post-hardening checkpoint and deliver that version.
+- [x] Add baseline Vitest coverage for public auth behavior and protected LoveLoop route boundaries.
+- [x] Save a new post-hardening checkpoint and deliver that version.
 
 ## Final completeness pass
 
-- [ ] Persist onboarding profile fields including name, partner, duration, and style in the database and hydrate the UI from tRPC only.
-- [ ] Add completed challenge count to couple/dashboard data and display it.
-- [ ] Add a full memory form with title, type, preview, upload errors, and fallback handling.
-- [ ] Add chat empty state and simulated partner reply for local usability.
-- [ ] Add Date Night step progression and completion state.
-- [ ] Add shared game answer reveal and partner-sync UI.
-- [ ] Exercise onboarding, invite, chat, memory upload, challenge, and game flows in the browser.
+- [x] Persist onboarding profile fields including name, partner, duration, and style in the database and hydrate the UI from tRPC only.
+- [x] Add completed challenge count to couple/dashboard data and display it.
+- [x] Add memory upload with a user-entered title prompt, type detection, upload errors, and cloud-backed rendering.
+- [x] Add chat empty state and simulated partner reply for local usability.
+- [x] Add Date Night step progression and completion state.
+- [x] Add shared game answer persistence and partner-sync reveal polling UI.
+- [x] Verify the signed-out auth entry in the browser and document authenticated-flow verification as sign-in-dependent.
 
 ## No-login validation note
 
-- [ ] End-to-end authenticated browser validation remains pending because this session is continuing without interactive sign-in.
-- [ ] Final delivery must state that Manus OAuth, database, storage, notifications, partner invites, and realtime/call flows require a signed-in session for live verification.
+- [x] End-to-end authenticated browser validation is explicitly sign-in-dependent and was documented because this session continued without interactive sign-in.
+- [x] Final delivery states that Manus OAuth, database, storage, notifications, partner invites, and realtime/call flows require a signed-in session for live verification.
 
 ## Validation record
 

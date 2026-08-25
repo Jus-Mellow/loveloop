@@ -1,0 +1,1 @@
+ALTER TABLE `couples` ADD `completedChallenges` int DEFAULT 0 NOT NULL;

@@ -25,6 +25,7 @@ export const couples = mysqlTable("couples", {
   startedAt: timestamp("startedAt"),
   streak: int("streak").default(0).notNull(),
   xp: int("xp").default(0).notNull(),
+  completedChallenges: int("completedChallenges").default(0).notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
 });
