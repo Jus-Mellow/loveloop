@@ -55,6 +55,6 @@ Anonymous validation completed successfully: `pnpm check`, `pnpm test`, and `pnp
 
 ## GitHub export
 
-- [ ] Prepare the current LoveLoop project Git repository and verify no sensitive environment files are staged.
-- [ ] Create a private GitHub repository named loveloop.
-- [ ] Push the current LoveLoop code to GitHub and verify the remote repository URL.
+- [x] Prepare the current LoveLoop project Git repository and verify no sensitive environment files are staged.
+- [x] Create a private GitHub repository named loveloop.
+- [x] Push the current LoveLoop code to GitHub and verify the remote repository URL.
