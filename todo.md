@@ -66,3 +66,5 @@ Anonymous validation completed successfully: `pnpm check`, `pnpm test`, and `pnp
 - [x] Add GitHub Actions continuous integration for install, typecheck, tests, and production build.
 - [x] Validate the workflow files and local CI commands.
 - [x] Commit and push the README and CI updates to the loveloop GitHub repository.
+
+- [ ] Fix GitHub Actions pnpm version duplication and confirm a passing CI run.
